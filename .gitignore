@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# PyCharm / JetBrains IDE settings
+.idea/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data files (large or raw datasets)
+data/*.csv
+data/*.json
+!data/e_1example.json
+
+# Logs
+*.log
