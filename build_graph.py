@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 
 class ECommerceGraph:
-    def __init__(self, uri, user, password, data_path="data/ecommerce_300.json"):
+    def __init__(self, uri, user, password, data_path="data/ecommerce_all.json"):
         self.data_path = data_path
         self.graph = Graph(uri, auth=(user, password))
 
@@ -246,7 +246,7 @@ if __name__ == "__main__":
     graph_builder = ECommerceGraph(
         uri="http://localhost:7474/",
         user="neo4j",
-        password="Neo4jade",
+        password="Neo4j",
         data_path="data/ecommerce_all.json"
     )
     graph_builder.clear_graph()

@@ -1,7 +1,7 @@
 from py2neo import Graph
 
 class GraphAnalyser:
-    def __init__(self, uri="http://localhost:7474", user="neo4j", password="Neo4jade"):
+    def __init__(self, uri="http://localhost:7474", user="neo4j", password="Neo4j"):
         self.graph = Graph(uri, auth=(user, password))
 
     @staticmethod
